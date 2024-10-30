@@ -1,0 +1,26 @@
+ul#latestbooks li.book, ul#latestbooks li.profile {
+	padding: 0 0 0 20px;
+}
+ul#latestbooks li.book:before, ul#latestbooks li.profile:before {
+	content: '';
+}
+ul#latestbooks li.icon_1 {
+	background: url(icon_1.gif) 0 3px no-repeat;
+}
+ul#latestbooks li.icon_0 {
+	background: url(icon_0.gif) 0 3px no-repeat;
+}
+ul#latestbooks li.icon_-1 {
+	background: url(icon_-1.gif) 0 3px no-repeat;
+}
+ul#latestbooks li.profile {
+	background: url(livelib.gif) no-repeat;
+	line-height: 16px;
+}
+ul#latestbooks li div.tags {
+	padding-top: 1px;
+}
+ul#latestbooks li div.tags small {
+	line-height: 12px;
+	color: #aaa;
+}
